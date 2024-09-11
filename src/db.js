@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const mongoDB =
-  "mongodb+srv://<your_nick>:<your_pass>.ctfts.mongodb.net/pet";
+  "mongodb+srv://maiav:kSckXefOO0ZiO5AS@Cluster0.ctfts.mongodb.net/pet";
 
 async function main() {
   await mongoose.connect(mongoDB);
